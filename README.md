@@ -1,16 +1,17 @@
-## Hi there 👋
+# Orientta Hunter AI
 
-<!--
-**orientta-hunter-ai/orientta-hunter-ai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Plataforma de Inteligência Comercial e ATS avançado para Job Hunters.
 
-Here are some ideas to get you started:
+## Estrutura do Projeto
+- `/backend`: API construída com FastAPI e Python 3.13.
+- `/frontend`: Interface construída com Next.js 15, React 19 e TailwindCSS.
+- `/database`: Migrations (Alembic) e schemas do PostgreSQL.
+- `/docker`: Configurações de orquestração.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Como iniciar o ambiente de desenvolvimento
+
+1. Clone o repositório.
+2. Copie o `.env.example` para `.env` e ajuste as credenciais.
+3. Execute na raiz do projeto:
+   ```bash
+   docker compose up --build
