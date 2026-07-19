@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-# Instala as ferramentas necessárias para compilação e o driver do Postgres
+# Instala dependências de sistema necessárias para compilar o psycopg2
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libpq-dev \
