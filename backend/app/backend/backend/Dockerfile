@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-# Instala as dependências necessárias para compilar pacotes Python
+# Instala ferramentas básicas para o Python funcionar
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libpq-dev \
