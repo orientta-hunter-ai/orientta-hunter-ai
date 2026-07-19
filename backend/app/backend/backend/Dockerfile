@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-# Instala dependências de sistema necessárias para compilar o psycopg2
+# Instala as dependências de sistema necessárias para o psycopg2
 RUN apt-get update && apt-get install -y \
     gcc \
     libpq-dev \
