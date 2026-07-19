@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-# Instala as dependências de sistema necessárias para o psycopg2
+# Instala as dependências necessárias para compilar pacotes Python
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libpq-dev \
